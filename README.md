@@ -7,6 +7,32 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Getting Started with Laravel
+
+This project was bootstrapped with [composer create-project laravel/laravel](https://laravel.com/docs/11.x).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm run dev`
+
+- This command is used to compile and build your React frontend assets during development. It's typically used when you're actively working on your React components and want to see the changes reflected in your browser.
+- When you run npm run dev, it triggers the webpack build process, which compiles your React components, JSX files, and any other frontend assets (like CSS, images, etc.) into a format that can be served to the browser.
+- This command might also perform other development-related tasks specified in your package.json file, such as watching for file changes and automatically recompiling assets.
+
+### `php artisan serve`
+
+- This command starts a development server for your Laravel application. It allows you to run your application locally and access it through a web browser.
+- When you run php artisan serve, Laravel starts a built-in PHP development server that listens on a specific port (usually 8000 by default).
+- You can then access your Laravel application by navigating to http://localhost:8000 in your web browser.
+
+### `php artisan tinker`
+
+- tinker is an interactive REPL (Read-Eval-Print Loop) tool included with Laravel. It allows you to interact with your Laravel application from the command line in an interactive manner.
+- When you run php artisan tinker, you'll enter a PHP environment where you can execute PHP code and interact with your Laravel application's models, database, and other components.
+- This is useful for testing database queries, manipulating data, and quickly trying out snippets of PHP code without having to write a full-fledged script.
+- 
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
